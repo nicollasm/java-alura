@@ -1,0 +1,17 @@
+package bigJumpTest;
+
+public class TestesBigJump {
+
+	public int jumps(int flagHeight, int bigJump) {
+		if (bigJump == 1) {
+			return flagHeight / bigJump;
+		} else {
+			int parcial = flagHeight / bigJump;
+			int rest = flagHeight % bigJump;
+			int resultado = parcial + rest;
+			return resultado;
+		}
+
+	}
+
+}

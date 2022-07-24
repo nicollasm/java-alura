@@ -1,0 +1,14 @@
+package bigJumpTest;
+
+import java.util.Scanner;
+
+
+public static int jump(int flagHeight, int bigJump) {
+
+	if (bigJump == 1) {
+		return 0;
+	}
+	
+	
+}
+}

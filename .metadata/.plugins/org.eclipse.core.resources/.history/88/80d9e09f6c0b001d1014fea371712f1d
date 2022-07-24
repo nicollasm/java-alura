@@ -1,0 +1,22 @@
+package bigJumpTest;
+
+import java.util.Scanner;
+
+public class TestesBigJump {
+
+	Scanner sc = new Scanner(System.in);
+	int alturaBandeira = sc.nextInt();
+	int bigJump = sc.nextInt();
+
+	public static int jumps(int flagHeight, int bigJump) {
+		if (bigJump == 1) {
+			return flagHeight / bigJump;
+		} else {
+			int parcial = flagHeight / bigJump;
+			int rest = flagHeight % bigJump;
+			return parcial + rest;
+		}
+
+	}
+
+}

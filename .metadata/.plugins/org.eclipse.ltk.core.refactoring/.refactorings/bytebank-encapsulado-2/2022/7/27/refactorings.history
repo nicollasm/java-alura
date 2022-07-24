@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;conta&apos; in &apos;Conta&apos; to &apos;numero&apos;&#x0D;&#x0A;- Original project: &apos;bytebank-encapsulado-2&apos;&#x0D;&#x0A;- Original element: &apos;Conta.conta&apos;&#x0D;&#x0A;- Renamed element: &apos;Conta.numero&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;conta&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{Conta.java[Conta^conta" name="numero" references="true" setter="false" stamp="1656707184476" textual="false" version="1.0"/>
+</session>
