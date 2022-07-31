@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.test.util;
+
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -23,7 +23,7 @@ public class DesafioCollections {
 		System.out.println("----------------------");
 
 		System.out.println("Array aleatório: ");
-		Collections.reverse(programmingLanguages);
+		Collections.shuffle(programmingLanguages);
 		for (int i = 0; i < programmingLanguages.size(); i++) {
 			System.out.println(programmingLanguages.get(i));
 		}
