@@ -21,6 +21,7 @@ public class bigJump {
 			int rest = flagHeight % bigJump;
 			int resultado = parcial + rest;
 			System.out.println(resultado);
+			System.out.println(rest);
 		}
 		sc.close();
 
