@@ -17,7 +17,7 @@ public class TesteWrapperInteger {
 		System.out.println(Integer.BYTES);
 		
 		int valor = idadeRef.intValue(); // unboxing
-		String s = args[0]; //"10"
+		String s = args[0]; //"12"
 //		Integer numero = Integer.valueOf(s);
 		int numero = Integer.parseInt(s);
 		System.out.println(numero);

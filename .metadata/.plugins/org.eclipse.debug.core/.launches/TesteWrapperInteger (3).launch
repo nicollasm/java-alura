@@ -12,6 +12,6 @@
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="br.com.bytebank.banco.test.util.TesteWrapperInteger"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="bytebank-heardado-conta"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="12"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="12 21"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="bytebank-heardado-conta"/>
 </launchConfiguration>
