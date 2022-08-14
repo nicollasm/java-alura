@@ -14,12 +14,12 @@ public class TesteEscritaPrintStreamPrintWriter {
 //		BufferedWriter bw = new BufferedWriter(new FileWriter("lorem2.txt"));
 //		PrintStream ps = new PrintStream(new File("lorem2.txt"));
 
-		PrintWriter ps = new PrintWriter("lorem2.txt");
+		PrintWriter ps = new PrintWriter("lorem2.txt", "UTF-8");
 		ps.println("Olá, estou testando a inserção de linhas aqui.");
 		ps.println();
 		ps.println();
 		ps.println();
-		ps.println("just inserting another line");
+		ps.println("just inserting another linee");
 
 		ps.close();
 
