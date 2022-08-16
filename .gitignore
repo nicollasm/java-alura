@@ -26,10 +26,3 @@ hs_err_pid*
 *.DS_Store
 /bin/
 *.metadata
-
-# Eclipse Core      
-.project
-
-# JDT-specific (Eclipse Java Development Tools)     
-.classpath
-.settings
