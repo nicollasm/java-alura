@@ -19,24 +19,25 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-/.metadata/
-
-# Eclipse
-.classpath
+# IDE Files #
+.iml
 .project
-.settings/
-/.externalToolBuilders
-/build
+.classpath
+.metadata
+.settings
+.target
+.bin/
+.idea/
+.out/
 
-*.DS_Store
-/bin/
-*.metadata
 
-# IntelliJ
-*.iml
-*.ipr
-*.iws
-/.idea/
-out/
+# temp ignore
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# OSX Stuff
+.DS_Store
+
+ 
