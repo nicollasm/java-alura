@@ -26,10 +26,9 @@
 .metadata
 .settings
 .target
-.bin/
-.idea/
-/idea/
-.out/
+bin/
+*idea/
+out/
 
 
 # temp ignore
