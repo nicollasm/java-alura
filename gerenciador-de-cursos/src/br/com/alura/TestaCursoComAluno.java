@@ -33,6 +33,7 @@ public class TestaCursoComAluno {
 		System.out.println("E esse Turini, está matriculado?");
 		System.out.println(a1.equals(turini));
 		
+		
 	}
 
 }
