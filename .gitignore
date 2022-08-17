@@ -28,6 +28,7 @@
 .target
 .bin/
 .idea/
+/idea/
 .out/
 
 
