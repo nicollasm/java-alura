@@ -37,7 +37,7 @@ public class Curso {
 	public int getTempoTotal() {
 		return this.aulas.stream().mapToInt(Aula::getTempo).sum();
 	}
-	
+
 	@Override
 	public String toString() {
 		return "[Curso: " + nome + ", tempo total: " + this.getTempoTotal() + ", " + " aulas: " + this.aulas + "]";
@@ -46,9 +46,14 @@ public class Curso {
 	public void matricula(Aluno aluno) {
 		this.alunos.add(aluno);
 	}
-	
+
 	public Set<Aluno> getAlunos() {
 		return Collections.unmodifiableSet(alunos);
+	}
+
+	public boolean estaMatriculado(Aluno aluno) {
+		return this.alunos.contains(aluno);
+
 	}
 
 }
