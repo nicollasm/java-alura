@@ -23,7 +23,6 @@
 .iml
 .classpath
 .metadata
-.settings
 .target
 bin/
 idea/
