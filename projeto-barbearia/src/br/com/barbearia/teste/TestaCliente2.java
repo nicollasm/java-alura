@@ -25,7 +25,7 @@ public class TestaCliente2 {
 			quantidadeAtual++;
 			sc.nextLine();
 		}
-		
+
 		sc.close();
 
 //		String names[] = new String[tamanho];

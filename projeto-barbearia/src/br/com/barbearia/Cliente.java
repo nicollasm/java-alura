@@ -5,15 +5,15 @@ public class Cliente {
 	private String nomeCliente;
 	private String telefoneCliente;
 	private String enderecoCliente;
-	
+
 	public Cliente() {
-		
+
 	}
-	
+
 	public Cliente(String nomeCliente, String telefoneCliente) {
-		
+
 	}
-	
+
 	public String getNomeCliente() {
 		return nomeCliente;
 	}
@@ -25,7 +25,7 @@ public class Cliente {
 	public String getEnderecoCliente() {
 		return this.enderecoCliente;
 	}
-	
+
 	public void setNomeCliente(String nomeCliente) {
 		this.nomeCliente = nomeCliente;
 	}
@@ -38,5 +38,5 @@ public class Cliente {
 	public String toString() {
 		return "O nome do cliente é: " + this.nomeCliente + ", telefone: " + this.telefoneCliente;
 	}
-	
+
 }
