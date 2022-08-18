@@ -21,7 +21,6 @@
 
 # IDE Files #
 .iml
-.project
 .classpath
 .metadata
 .settings
